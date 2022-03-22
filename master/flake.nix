@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-shene-master.flake = false;
+  inputs.src-shene-master.ref   = "refs/heads/master";
   inputs.src-shene-master.owner = "xflywind";
-  inputs.src-shene-master.ref   = "master";
   inputs.src-shene-master.repo  = "shene";
   inputs.src-shene-master.type  = "github";
   
